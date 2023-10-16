@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 59, 90);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 20px 20px 30px 20px;
+  background-color: aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 1px 1px 25px aliceblue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.fa-quote-left {
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.quote {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.author {
+  float: right;
+  margin-top: 40px;
+  font-weight: 500;
+  font-style: italic;
+  position: relative;
+  left: 20px;
+}
+
+.fa-quote-right {
+  font-size: 30px;
+  float: right;
+  margin-top: 5px;
+}
+
+.new-quote-btn {
+  height: 45px;
+  width: 310px;
+  background-color: rgb(0, 59, 90);
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.speak,
+.copy {
+  all: unset;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: black solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.speak:hover,
+.copy:hover {
+  background-color: rgb(0, 59, 90);
+  color: white;
+  border-color: rgb(0, 59, 90);
+}
+
+.copy span {
+  position: absolute;
+  font-size: 10px;
+  font-style: italic;
+  display: none;
+}
